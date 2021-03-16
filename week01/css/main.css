@@ -1,0 +1,32 @@
+body {
+    padding: 4rem;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://search.naver.com/search.naver?sm=tab_hty.top&where=image&query=%ED%95%98%EB%8A%98+%EC%82%AC%EC%A7%84&oquery=%EA%B0%90%EC%84%B1%EC%82%AC%EC%A7%84&tqi=havpxsp0YiRssuP%2F5HhssssssfC-164134#);
+    background-size:cover;
+}
+.poem {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20rem;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    width: 50%;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+#title {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 800;
+}
+.text {
+    width: 50%;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.caluse+.caluse {
+    margin-bottom: 2.25rem;
+}
